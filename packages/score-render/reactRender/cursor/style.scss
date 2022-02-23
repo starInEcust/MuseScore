@@ -1,0 +1,13 @@
+.music-score-cursor {
+    animation: flicker .8s .4s linear infinite forwards; 
+}
+ 
+@keyframes flicker {
+      0%{
+          opacity: 0;
+      }
+      100%{
+        opacity: 1;
+      }
+}
+ 
