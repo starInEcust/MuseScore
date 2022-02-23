@@ -1,0 +1,10 @@
+{
+  "name": "score-render",
+  "version": "1.0.0",
+  "dependencies": {
+    "score-method": "1.0.0",
+    "score-operation": "1.0.0",
+    "score-config": "1.0.0",
+    "score-store": "1.0.0"
+  }
+}

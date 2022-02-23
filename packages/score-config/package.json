@@ -1,0 +1,7 @@
+{
+  "name": "score-config",
+  "version": "1.0.0",
+  "dependencies": {
+    "score-method": "1.0.0"
+  }
+}

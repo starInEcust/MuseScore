@@ -1,0 +1,21 @@
+.music-score-container {
+  width: 100%;
+  min-width: 1000px;
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .stage-container {
+    width: 100%;
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .stage-wrap {
+    box-shadow: 0 1px 6px #ccc;
+    background-color: #fff;
+  }
+}
