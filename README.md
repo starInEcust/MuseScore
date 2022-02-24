@@ -26,9 +26,9 @@ window.onload = (() => {
         selector: '#museScoreView',
         scoreData: testJson,   
         config: {
-        mode: 'single',
-        withEdit: true,
-      },
+          mode: 'single',
+          withEdit: true,
+        },
     })
   });
 });
