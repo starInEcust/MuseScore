@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 3.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
+<score-partwise version="3.0">       <!-- 根节点: score-partwise -->
+  <part-list>                        <!-- 行(分谱)列表 -->
+    <score-part id="P1">
+      <part-name>Piano</part-name>   <!-- 乐器名称 -->
+    </score-part>
+  </part-list>
+  <part id="P1">
+    <measure number="1">             <!-- 第一小节 -->
+      <attributes>                   <!-- 小节属性 -->
+        <divisions>256</divisions>   <!-- 设定用 256 表示一个四分音符的长度 -->
+        <key>                        
+          <fifths>0</fifths>         <!-- C大调(没有升降号) -->
+        </key>
+        <time>
+          <beats>4</beats>
+          <beat-type>4</beat-type>   <!-- 4/4 拍 -->
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>             <!-- 使用高音谱号(G谱号) -->
+        </clef>
+        <transpose>
+          <diatonic>-1</diatonic>   八度改变   降b小号 c调谱子，  c到b -1  这个可以没有
+          <chromatic>-2</chromatic> 半音改变    到降b c-半音-半音 - 2  这个比较主要必须要有
+        </transpose>
+      </attributes>
+      <note>                         <!-- 音符 -->
+        <pitch>                      <!-- 音高 -->
+          <step>C</step>
+          <octave>4</octave>         <!-- 中央 C -->
+            1.升，无关谱号，这个音有升降就有这个 
+            2.Alter values of -2 and 2 can be used for double-flat and double-sharp.
+            3.(e.g., 0.5 for a quarter-tone sharp)0.5比如说就波动一点点的没有到降半音
+          <alter>1</alter>   
+        </pitch>
+        <accidental>natural</accidental>  标记（还原） 
+        <duration>1024</duration>    <!-- 演奏时值 -->
+        <type>whole</type>           <!-- 音符类型: 256th、128th、64th、32nd、16th、eighth、quarter、half、whole、breve、long -->
+      </note>
+      <note>
+        <chord/> 和弦
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+      </note>
+      <note>  休止
+        <rest/>
+        <duration>72</duration>
+      </note>
+      <note default-x="127.43" default-y="-15.00">
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>16th</type>
+        <time-modification>   // 时值改变
+          <actual-notes>3</actual-notes>  //  两个4分的长度，演奏3个音符 也就是说 每个是4分 * 2 / 3
+          <normal-notes>2</normal-notes>  //  一个4分的长度取决于divsion和duration
+        </time-modification>
+        <stem>down</stem> 尾巴方向
+        <beam number="1">end</beam> // 下线结束和开始
+        <beam number="2">end</beam>
+        <notations>
+          <tuplet type="stop"/> // 三连音结束
+        </notations>
+      </note>
+    </measure>
+  </part>
+</score-partwise>
+
+<work>
+  <work-number>D. 911</work-number> <!-- 作品集标号 -->
+  <work-title>Winterreise</work-title>  <!-- 作品集名称 -->
+</work>
+<movement-number>22</movement-number> <!-- 第几个 作品 -->
+<movement-title>Mut</movement-title><!-- 当前名字 -->
+<identification>
+  <creator type="composer">Franz Schubert</creator>
+  <creator type="poet">Wilhelm Müller</creator>
+  <rights>Copyright © 2001 Recordare LLC</rights>
+  <encoding>
+    <encoding-date>2002-02-16</encoding-date>
+    <encoder>Michael Good</encoder>
+    <software>Finale 2002 for Windows</software>
+    <encoding-description>MusicXML 1.0 example</encoding-description>
+  </encoding>
+  <source>Based on Breitkopf &amp; Härtel edition of 1895</source>
+</identification>
+<part-list>
+  <score-part id="P1">
+    <part-name>Singstimme.</part-name>
+    Recordare LLC Page 17 August 10, 2011
+  </score-part>
+  <score-part id="P2">
+    <part-name>Pianoforte.</part-name>
+  </score-part>
+</part-list>
+
+slur 连结线 连贯圆滑
+
+ties 联奏同一个音分开写
+
+        <time-modification>
+          <actual-notes>3</actual-notes>
+          <normal-notes>2</normal-notes>
+        </time-modification> 三连音
+
+        <notations>
+          <tuplet type="start" bracket="no"/>
+        </notations>
