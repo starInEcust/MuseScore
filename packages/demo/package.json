@@ -1,8 +1,9 @@
 {
-  "name": "score",
+  "name": "render-demo",
   "version": "1.0.0",
   "dependencies": {
-    "string_decoder": "^1.3.0"
+    "score": "1.0.0",
+    "xml-transfer": "^1.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.17.5",
