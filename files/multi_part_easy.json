@@ -1,0 +1,369 @@
+{
+    "header": {},
+    "keyAndMeter": {
+        "text": "1=F",
+        "meterCount": 4,
+        "meter": 4,
+        "divisions": 4
+    },
+    "musicScores": [
+        {
+            "something": "",
+            "score": [
+                {
+                    "type": "BAR_START_FEATURE"
+                },
+                {
+                    "octave": 1,
+                    "pitch": 1,
+                    "noteType": "eighth",
+                    "duration": 2,
+                    "drawType": "NOTE",
+                    "type": "NOTE"
+                },
+                {
+                    "octave": 1,
+                    "pitch": 1,
+                    "noteType": "half",
+                    "duration": 12,
+                    "longDurationLine": 2,
+                    "drawType": "NOTE",
+                    "type": "NOTE"
+                },
+                {
+                    "octave": 0,
+                    "pitch": 6,
+                    "arc": [],
+                    "noteType": "eighth",
+                    "duration": 2,
+                    "drawType": "NOTE",
+                    "type": "NOTE"
+                },
+                {
+                    "type": "BARLINE",
+                    "drawType": "BARLINE"
+                },
+                {
+                    "type": "BAR_START_FEATURE"
+                },
+                {
+                    "octave": 1,
+                    "pitch": 1,
+                    "beam": [
+                        {
+                            "attributes": {
+                                "number": "1"
+                            },
+                            "value": "begin"
+                        }
+                    ],
+                    "noteType": "eighth",
+                    "duration": 2,
+                    "drawType": "NOTE",
+                    "type": "NOTE"
+                },
+                {
+                    "octave": 1,
+                    "pitch": 1,
+                    "beam": [
+                        {
+                            "attributes": {
+                                "number": "1"
+                            },
+                            "value": "end"
+                        }
+                    ],
+                    "isGroupEndNote": true,
+                    "noteType": "eighth",
+                    "duration": 2,
+                    "drawType": "NOTE",
+                    "type": "NOTE"
+                },
+                {
+                    "octave": 1,
+                    "pitch": 1,
+                    "beam": [
+                        {
+                            "attributes": {
+                                "number": "1"
+                            },
+                            "value": "begin"
+                        }
+                    ],
+                    "noteType": "eighth",
+                    "duration": 2,
+                    "drawType": "NOTE",
+                    "type": "NOTE"
+                },
+                {
+                    "octave": 1,
+                    "pitch": 1,
+                    "beam": [
+                        {
+                            "attributes": {
+                                "number": "1"
+                            },
+                            "value": "continue"
+                        },
+                        {
+                            "attributes": {
+                                "number": "2"
+                            },
+                            "value": "begin"
+                        }
+                    ],
+                    "noteType": "16th",
+                    "duration": 1,
+                    "drawType": "NOTE",
+                    "type": "NOTE"
+                },
+                {
+                    "octave": 1,
+                    "pitch": 1,
+                    "beam": [
+                        {
+                            "attributes": {
+                                "number": "1"
+                            },
+                            "value": "end"
+                        },
+                        {
+                            "attributes": {
+                                "number": "2"
+                            },
+                            "value": "end"
+                        }
+                    ],
+                    "isGroupEndNote": true,
+                    "noteType": "16th",
+                    "duration": 1,
+                    "drawType": "NOTE",
+                    "type": "NOTE"
+                },
+                {
+                    "octave": 1,
+                    "pitch": 1,
+                    "beam": [
+                        {
+                            "attributes": {
+                                "number": "1"
+                            },
+                            "value": "begin"
+                        },
+                        {
+                            "attributes": {
+                                "number": "2"
+                            },
+                            "value": "begin"
+                        }
+                    ],
+                    "noteType": "16th",
+                    "duration": 1,
+                    "drawType": "NOTE",
+                    "type": "NOTE"
+                },
+                {
+                    "octave": 1,
+                    "pitch": 1,
+                    "beam": [
+                        {
+                            "attributes": {
+                                "number": "1"
+                            },
+                            "value": "continue"
+                        },
+                        {
+                            "attributes": {
+                                "number": "2"
+                            },
+                            "value": "continue"
+                        }
+                    ],
+                    "noteType": "16th",
+                    "duration": 1,
+                    "drawType": "NOTE",
+                    "type": "NOTE"
+                },
+                {
+                    "octave": 1,
+                    "pitch": 1,
+                    "beam": [
+                        {
+                            "attributes": {
+                                "number": "1"
+                            },
+                            "value": "continue"
+                        },
+                        {
+                            "attributes": {
+                                "number": "2"
+                            },
+                            "value": "continue"
+                        }
+                    ],
+                    "noteType": "16th",
+                    "duration": 1,
+                    "drawType": "NOTE",
+                    "type": "NOTE"
+                },
+                {
+                    "octave": 1,
+                    "pitch": 1,
+                    "beam": [
+                        {
+                            "attributes": {
+                                "number": "1"
+                            },
+                            "value": "end"
+                        },
+                        {
+                            "attributes": {
+                                "number": "2"
+                            },
+                            "value": "end"
+                        }
+                    ],
+                    "isGroupEndNote": true,
+                    "noteType": "16th",
+                    "duration": 1,
+                    "drawType": "NOTE",
+                    "type": "NOTE"
+                },
+                {
+                    "octave": 0,
+                    "pitch": 0,
+                    "noteType": "quarter",
+                    "duration": 4,
+                    "drawType": "NOTE",
+                    "type": "NOTE"
+                },
+                {
+                    "type": "BARLINE",
+                    "drawType": "BARLINE",
+                    "musicType": "END_BAR",
+                    "svgId": "endBar"
+                }
+            ]
+        },
+        {
+            "something": "",
+            "score": [
+                {
+                    "type": "BAR_START_FEATURE"
+                },
+                {
+                    "octave": 1,
+                    "pitch": 1,
+                    "noteType": "eighth",
+                    "duration": 2,
+                    "drawType": "NOTE",
+                    "type": "NOTE"
+                },
+                {
+                    "octave": 1,
+                    "pitch": 1,
+                    "noteType": "half",
+                    "duration": 12,
+                    "longDurationLine": 2,
+                    "drawType": "NOTE",
+                    "type": "NOTE"
+                },
+                {
+                    "octave": 0,
+                    "pitch": 6,
+                    "arc": [],
+                    "noteType": "eighth",
+                    "duration": 2,
+                    "drawType": "NOTE",
+                    "type": "NOTE"
+                },
+                {
+                    "type": "BARLINE",
+                    "drawType": "BARLINE"
+                },
+                {
+                    "type": "BAR_START_FEATURE"
+                },
+                {
+                    "octave": 0,
+                    "pitch": 7,
+                    "beam": [
+                        {
+                            "attributes": {
+                                "number": "1"
+                            },
+                            "value": "begin"
+                        }
+                    ],
+                    "noteType": "eighth",
+                    "duration": 2,
+                    "drawType": "NOTE",
+                    "type": "NOTE"
+                },
+                {
+                    "octave": 0,
+                    "pitch": 7,
+                    "beam": [
+                        {
+                            "attributes": {
+                                "number": "1"
+                            },
+                            "value": "continue"
+                        }
+                    ],
+                    "noteType": "eighth",
+                    "duration": 2,
+                    "drawType": "NOTE",
+                    "type": "NOTE"
+                },
+                {
+                    "octave": 0,
+                    "pitch": 7,
+                    "beam": [
+                        {
+                            "attributes": {
+                                "number": "1"
+                            },
+                            "value": "end"
+                        }
+                    ],
+                    "isGroupEndNote": true,
+                    "noteType": "eighth",
+                    "duration": 2,
+                    "drawType": "NOTE",
+                    "type": "NOTE"
+                },
+                {
+                    "octave": 0,
+                    "pitch": 7,
+                    "noteType": "quarter",
+                    "duration": 4,
+                    "drawType": "NOTE",
+                    "type": "NOTE"
+                },
+                {
+                    "octave": 1,
+                    "pitch": 1,
+                    "noteType": "quarter",
+                    "duration": 4,
+                    "drawType": "NOTE",
+                    "type": "NOTE"
+                },
+                {
+                    "octave": 1,
+                    "pitch": 1,
+                    "noteType": "eighth",
+                    "duration": 2,
+                    "drawType": "NOTE",
+                    "type": "NOTE"
+                },
+                {
+                    "type": "BARLINE",
+                    "drawType": "BARLINE",
+                    "musicType": "END_BAR",
+                    "svgId": "endBar"
+                }
+            ]
+        }
+    ]
+}
