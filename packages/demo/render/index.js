@@ -1,5 +1,5 @@
-import museScore from '../../packages/score/index';
-import transfer from '../../packages/xml-transfer';
+import museScore from 'score';
+import transfer from 'xml-transfer';
 
 window.onload = (() => {
   fetch('./assets/pugongying.musicxml').then(data => {
